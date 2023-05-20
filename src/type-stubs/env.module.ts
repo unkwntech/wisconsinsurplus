@@ -6,7 +6,9 @@
 */
 namespace NodeJS {
     export interface ProcessEnv {
-        DISCORD_BOT_TOKEN: string;
-        DISCORD_OAUTH_CLIENT_ID: string;
+        SEARCH_INTERVAL: string;
+        AUCTION_ALERT_LIMIT: string;
+        DB_CONN_STRING: string;
+        DB_NAME: string;
     }
 }
